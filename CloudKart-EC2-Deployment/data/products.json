@@ -1,0 +1,14 @@
+[
+  { "id": 1, "name": "Wireless Headphones", "category": "Electronics", "price": 2499, "stock": 24, "rating": 4.5, "emoji": "\ud83c\udfa7", "description": "Bluetooth 5.3 over-ear headphones with 40h battery and active noise cancellation." },
+  { "id": 2, "name": "Smart Watch", "category": "Electronics", "price": 3999, "stock": 15, "rating": 4.3, "emoji": "\u231a", "description": "AMOLED display, SpO2 and heart-rate tracking, 7-day battery life." },
+  { "id": 3, "name": "Mechanical Keyboard", "category": "Electronics", "price": 4599, "stock": 9, "rating": 4.7, "emoji": "\u2328\ufe0f", "description": "Hot-swappable 75% keyboard with brown switches and RGB backlight." },
+  { "id": 4, "name": "Running Shoes", "category": "Fashion", "price": 2899, "stock": 31, "rating": 4.2, "emoji": "\ud83d\udc5f", "description": "Lightweight mesh running shoes with cushioned EVA midsole." },
+  { "id": 5, "name": "Denim Jacket", "category": "Fashion", "price": 1999, "stock": 18, "rating": 4.0, "emoji": "\ud83e\udde5", "description": "Classic washed-blue denim jacket, unisex regular fit." },
+  { "id": 6, "name": "Backpack 30L", "category": "Fashion", "price": 1499, "stock": 22, "rating": 4.4, "emoji": "\ud83c\udf92", "description": "Water-resistant laptop backpack with 15.6-inch padded sleeve." },
+  { "id": 7, "name": "Coffee Maker", "category": "Home", "price": 3299, "stock": 7, "rating": 4.1, "emoji": "\u2615", "description": "Drip coffee maker, 1.2L glass carafe with keep-warm plate." },
+  { "id": 8, "name": "Table Lamp", "category": "Home", "price": 899, "stock": 40, "rating": 4.6, "emoji": "\ud83d\udca1", "description": "Minimal LED desk lamp with 3 colour temperatures and touch dimming." },
+  { "id": 9, "name": "Cloud Computing Handbook", "category": "Books", "price": 649, "stock": 50, "rating": 4.8, "emoji": "\ud83d\udcd8", "description": "Practical guide to AWS EC2, S3, VPC and deployment architectures." },
+  { "id": 10, "name": "Yoga Mat", "category": "Sports", "price": 799, "stock": 27, "rating": 4.2, "emoji": "\ud83e\uddd8", "description": "6mm anti-slip TPE yoga mat with carry strap." },
+  { "id": 11, "name": "Cricket Bat", "category": "Sports", "price": 2199, "stock": 12, "rating": 4.3, "emoji": "\ud83c\udfcf", "description": "Kashmir willow short-handle bat, knocked-in and ready to play." },
+  { "id": 12, "name": "Bluetooth Speaker", "category": "Electronics", "price": 1799, "stock": 19, "rating": 4.4, "emoji": "\ud83d\udd0a", "description": "IPX7 portable speaker, 12h playtime and deep bass radiator." }
+]

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CloudKart</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%9B%92</text></svg>">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">🛒 <span>CloudKart</span></div>
+    <input id="search" type="search" placeholder="Search products…" aria-label="Search products">
+    <button id="cart-btn" class="cart-btn" aria-label="Open cart">Cart <span id="cart-count">0</span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Everything you need, delivered fast</h1>
+    <p>Running on an Amazon EC2 instance in the AWS cloud.</p>
+    <p class="server-line" id="server-line">Checking backend…</p>
+  </div>
+</section>
+
+<main class="wrap">
+  <nav id="categories" class="categories" aria-label="Product categories"></nav>
+  <div id="grid" class="grid" aria-live="polite"></div>
+</main>
+
+<aside id="cart-panel" class="cart-panel" aria-hidden="true">
+  <div class="cart-head">
+    <h2>Your cart</h2>
+    <button id="cart-close" class="icon-btn" aria-label="Close cart">✕</button>
+  </div>
+  <div id="cart-items" class="cart-items"></div>
+  <div class="cart-foot">
+    <div class="row"><span>Subtotal</span><strong id="subtotal">₹0</strong></div>
+    <div class="row muted"><span>Shipping</span><span id="shipping">₹0</span></div>
+    <div class="row total"><span>Total</span><strong id="total">₹0</strong></div>
+    <button id="checkout-btn" class="primary" disabled>Checkout</button>
+  </div>
+</aside>
+
+<div id="overlay" class="overlay" hidden></div>
+
+<dialog id="checkout" class="checkout">
+  <form id="checkout-form" method="dialog">
+    <h2>Checkout</h2>
+    <label>Full name<input name="name" required autocomplete="name"></label>
+    <label>Email<input name="email" type="email" required autocomplete="email"></label>
+    <label>Delivery address<textarea name="address" rows="3" required></textarea></label>
+    <p id="checkout-error" class="error" hidden></p>
+    <div class="actions">
+      <button type="button" id="checkout-cancel">Cancel</button>
+      <button type="submit" class="primary">Place order</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="receipt" class="checkout">
+  <h2>Order confirmed ✅</h2>
+  <div id="receipt-body"></div>
+  <div class="actions"><button type="button" id="receipt-close" class="primary">Continue shopping</button></div>
+</dialog>
+
+<footer class="footer wrap">
+  <p>CloudKart demo store · frontend + Node.js backend + product catalogue on one Amazon EC2 (t3.micro) instance.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

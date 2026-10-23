@@ -1,0 +1,11 @@
+{
+  "name": "cloudkart",
+  "version": "1.0.0",
+  "description": "Online shopping website (frontend + backend + product data) hosted on Amazon EC2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {}
+}
